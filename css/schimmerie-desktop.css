@@ -85,12 +85,24 @@ a:hover, a:active, a:focus {
 	height: 500px;
 }
 
-.ansage-wichtig {
-	background-color: orange;
+.ansage-wichtig, .ansage-buchinfo {
 	color: white;
-	font-size: 130%;
-	height: 50px;
-	padding-top: 15px;
+	font-size: 150%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.ansage-wichtig {
+	background-color: #e8652d;
+}
+
+.ansage-wichtig button {
+	font-size: 100%;
+}
+
+.ansage-buchinfo {
+	background-color: #78c7d6;
+	color: white;
 }
 
 .ansage-bilder {
