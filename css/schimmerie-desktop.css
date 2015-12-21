@@ -23,7 +23,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1 {
 	font-family: titelfont, fantasy, sans-serif;
-   font-size: 300%;
+	font-size: 300%;
+	margin-bottom: 5%;
+	margin-top: 3%;
 }
 
 a img {
@@ -43,12 +45,19 @@ a:hover, a:active, a:focus {
 }
 
 .middle-container {
-	max-width: 900px;
+	margin-top: 2%;
+	max-width: 800px;
 	min-width: 600px;
 }
 
 .header {
-	background: #6F7D94;
+	position: absolute;
+	top: 0;
+	left: -200px;
+}
+
+.header .wolf-bild {
+	opacity: 0.4;
 }
 
 .content {
@@ -64,7 +73,7 @@ a:hover, a:active, a:focus {
 	width: 100%
 	max-width: 900px;
 	min-width: 600px;
-	padding: 100px 0;
+	padding: 30px 0;
 	background-image: url("../endebild.png");
 	background-size: cover;
 	height: 500px;
