@@ -43,23 +43,22 @@
     <h2>Eine magische Feensage aus dem Hasselbachtal</h2>
     <p>von Nicole Schaa</p>
 	</div>
-  <div style="background-color:black; text-align: right;"><a href="impressum.html" target="_blank">Impressum</a></div>
+  <div style="background-color:black; text-align: right;"><a id="impressum-link" href="impressum.html" target="_blank">Impressum</a></div>
 	<div class="ansage center-block">
-    <div class="ansage-wichtig text-center">ab März 2016 im Buchhandel</div>
-    <div class="ansage-buchinfo text-center"> 12,95 € | Hardcover | 116 Seiten | vollfarbig illustriert</div>
+    <div class="ansage-wichtig text-center">ab Ende März 2016 im Buchhandel</div>
+    <div class="ansage-buchinfo text-center"> 12,99 € | Hardcover | 116 Seiten | vollfarbig illustriert</div>
     <div class="ansage-bilder text-center"><img src="ansage-bilder.jpg" border="0" usemap="#Map" />
 		<map name="Map">
-			<area shape="rect" coords="301,326,346,367" href="http://www.facebook.com/biberundbutzemann/" target="_blank" alt="Bieber und Butzemann bei Facebook">
-			<area shape="rect" coords="353,332,773,364" href="http://www.biber-butzemann.de" target="_blank" alt="Homepage des Verlages Biber und Butzemann">
+			<area shape="rect" coords="336,332,756,364" href="http://www.biber-butzemann.de" target="_blank" alt="Homepage des Verlages Biber und Butzemann">
+			<area shape="rect" coords="284,326,329,367" href="http://www.facebook.com/biberundbutzemann/" target="_blank" alt="Bieber und Butzemann bei Facebook">
 		</map>
 </div>
-    <div class="ansage-wichtig text-center">Per Email bis 29. Februar 2016
-      <button type="button" class="btn btn-info" title="Bestellmail senden"
-        onclick="window.open('mailto:info&#64;biber&#45;butzemann&#46;de?subject=Vorbestellung Schimmerie Harztropf und das Sternenmeer&amp;body=Bitte schreiben Sie hier Ihren Text an den Verlag Biber und Butzemann.'); return false;">
-        für 10,50 € beim Verlag vorbestellen!</button><div>
+    
 	</div>
-	</div>
-	</div>
+	<script>
+	$(function(){
+		$('.impressum-closed .impressum-link').appendClick();
+	});
+</script>
 </body>
-
 </html>
